@@ -6,6 +6,7 @@
 
 ## 介绍
 
+> **实验用的示例代码：** https://github.com/NightmareZero/TX-LCN-EXAMPLE
 > **官方网站:**  https://www.txlcn.org
 > **Github:**  https://github.com/codingapi/tx-lcn
 
