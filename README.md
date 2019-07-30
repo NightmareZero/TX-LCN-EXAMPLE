@@ -1,9 +1,5 @@
 # TX-LCN 研究笔记
 
-**目录**
-
-[TOC]
-
 ## 介绍
 
 > **实验用的示例代码：** https://github.com/NightmareZero/TX-LCN-EXAMPLE
