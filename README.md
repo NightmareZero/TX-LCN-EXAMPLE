@@ -224,4 +224,5 @@ public class Test2Service {
 2. 在参与端try方法异常退出时，本地事物回滚，但不影响总体事物
 3. 在发起端try方法异常退出时，所有执行成功的事物执行cancel方法
 4. 在发起端try方法正常结束时，所有未执行cancel的事物执行confirm方法
+5. 请保证在confirm和cancel方法中，不要出现异常退出的情况，可能会导致事务性出现问题
 
