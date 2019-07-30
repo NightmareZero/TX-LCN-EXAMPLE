@@ -1,0 +1,21 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: serv3
+
+logging:
+  level:
+    com:
+      codingapi:
+        txlcn: DEBUG
+
+eureka:
+  instance:
+    prefer-ip-address: true #×¢²á·þÎñµÄip
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8004/eureka
+    fetch-registry: true
+    register-with-eureka: true
+

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eserv
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defautZone: http://localhost:8004/eureka
+server:
+  port: 8004

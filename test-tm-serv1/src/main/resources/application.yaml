@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: serv1
+
+logging:
+  level:
+    com:
+      codingapi:
+        txlcn: DEBUG
+
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的ip
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8004/eureka
+    fetch-registry: true
+    register-with-eureka: true
