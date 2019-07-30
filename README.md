@@ -25,6 +25,10 @@ TX-LCN分布式事务框架 主要分为两部分，`Client`及`Server`。
 
 **需要添加的Pom依赖：**
 
+```sql
+create database if not exists `tx-manager` default charset utf8 collate utf8_general_ci;
+```
+
 ```xml
 <dependency>
     <groupId>com.codingapi.txlcn</groupId>
